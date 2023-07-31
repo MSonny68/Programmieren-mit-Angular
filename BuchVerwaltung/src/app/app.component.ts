@@ -18,6 +18,7 @@ export class AppComponent {
   }
 
   showDetails(book: Book){
+    this.book = book;
     this.viewState = 'details';
   }
 }
